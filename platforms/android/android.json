@@ -1,0 +1,84 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "res/xml/config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"PgyerPlugin\"><param name=\"android-package\" value=\"com.pgyer.plugin.PgyerPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "AndroidManifest.xml": {
+        "parents": {
+          "/manifest": [
+            {
+              "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
+              "count": 1
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.INTERNET\" />",
+              "count": 1
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\" />",
+              "count": 1
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\" />",
+              "count": 1
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
+              "count": 1
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.RECORD_AUDIO\" />",
+              "count": 1
+            }
+          ],
+          "/manifest/application": [
+            {
+              "xml": "<meta-data android:name=\"PGYER_APPID\" android:value=\"1255125775d43c92d1de5d497043ed6b\" />",
+              "count": 1
+            },
+            {
+              "xml": "<activity android:name=\"com.pgyersdk.feedback.FeedbackActivity\" />",
+              "count": 1
+            },
+            {
+              "xml": "<provider android:authorities=\"${applicationId}.com.pgyer.provider\" android:exported=\"false\" android:name=\"com.pgyersdk.PgyerProvider\" />",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "com.pgyer.plugin": {
+      "ANDROID_APPID": "1255125775d43c92d1de5d497043ed6b",
+      "PACKAGE_NAME": "com.pgyer.cordova.demo"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "com.pgyer.plugin.pgyer",
+      "file": "plugins/com.pgyer.plugin/www/pgyer.js",
+      "pluginId": "com.pgyer.plugin",
+      "clobbers": [
+        "pgyer"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "com.pgyer.plugin": "1.0.0"
+  }
+}

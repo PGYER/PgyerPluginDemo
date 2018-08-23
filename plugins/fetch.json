@@ -1,0 +1,21 @@
+{
+  "com.pgyer.plugin": {
+    "source": {
+      "type": "registry",
+      "id": "pgyerplugin"
+    },
+    "is_top_level": true,
+    "variables": {
+      "ANDROID_APPID": "1255125775d43c92d1de5d497043ed6b",
+      "IOS_APPID": "034ba1919cd31a368b472689746c8f0e"
+    }
+  },
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

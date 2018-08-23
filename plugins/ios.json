@@ -1,0 +1,19 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "com.pgyer.plugin": {
+      "IOS_APPID": "034ba1919cd31a368b472689746c8f0e",
+      "PACKAGE_NAME": "com.pgyer.cordova.demo"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.pgyer.cordova.demo"
+    }
+  },
+  "dependent_plugins": {}
+}

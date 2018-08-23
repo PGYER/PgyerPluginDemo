@@ -1,0 +1,16 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "com.pgyer.plugin": {
+      "ANDROID_APPID": "1255125775d43c92d1de5d497043ed6b",
+      "PACKAGE_NAME": "com.pgyer.cordova.demo"
+    }
+  },
+  "dependent_plugins": {}
+}
