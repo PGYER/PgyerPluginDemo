@@ -16,7 +16,6 @@ Cordova的命令行运行在Node.js 上面并且可以通过NPM安装。 根据 
 
 ```
 cordova plugin add pgyerplugin --variable ANDROID_APPID=[Android App Key] --variable IOS_APPID=[iOS App Key]
-
 ```
 
 在蒲公英上的每一个 App 都有一个唯一的 App Key，开发者可以在应用管理页面首页查看[Android App Key] 和 [iOS App Key]。
